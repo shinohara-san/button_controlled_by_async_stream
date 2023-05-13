@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F25BECD9-15F2-473D-927F-4002D3421056"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A39BA8D-5879-4AF0-A51B-084D6E81CF16"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConcurrencyEnabledButton/Model.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "checkButtonStatus(text:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CA218F1D-1054-4D58-86DE-72BA03EE99DB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConcurrencyEnabledButton/Model.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "stream"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "CA218F1D-1054-4D58-86DE-72BA03EE99DB - 71efa68b40b8848f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.AsyncThrowingStream&lt;(Swift.String, Swift.Bool), Swift.Error&gt;.Continuation) -&gt; () in ConcurrencyEnabledButton.Model.stream.getter : Swift.AsyncThrowingStream&lt;(Swift.String, Swift.Bool), Swift.Error&gt;"
+                  moduleName = "ConcurrencyEnabledButton"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shinohara.yuki.2250/Lab/ConcurrencyEnabledButton/ConcurrencyEnabledButton/Model.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "CA218F1D-1054-4D58-86DE-72BA03EE99DB - 2e3e3d661bd96c1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String, Swift.Bool) -&gt; () in closure #1 (Swift.AsyncThrowingStream&lt;(Swift.String, Swift.Bool), Swift.Error&gt;.Continuation) -&gt; () in ConcurrencyEnabledButton.Model.stream.getter : Swift.AsyncThrowingStream&lt;(Swift.String, Swift.Bool), Swift.Error&gt;"
+                  moduleName = "ConcurrencyEnabledButton"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shinohara.yuki.2250/Lab/ConcurrencyEnabledButton/ConcurrencyEnabledButton/Model.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D4EA8D1-28ED-4103-AA8D-BB536E4D965E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConcurrencyEnabledButton/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1D4EA8D1-28ED-4103-AA8D-BB536E4D965E - 75542c11f6b784e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in ConcurrencyEnabledButton.ViewModel.init() -&gt; ConcurrencyEnabledButton.ViewModel"
+                  moduleName = "ConcurrencyEnabledButton"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shinohara.yuki.2250/Lab/ConcurrencyEnabledButton/ConcurrencyEnabledButton/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "1D4EA8D1-28ED-4103-AA8D-BB536E4D965E - b7e085966f0b2762"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor @Sendable () async -&gt; () in closure #1 @Sendable () async throws -&gt; () in ConcurrencyEnabledButton.ViewModel.init() -&gt; ConcurrencyEnabledButton.ViewModel"
+                  moduleName = "ConcurrencyEnabledButton"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shinohara.yuki.2250/Lab/ConcurrencyEnabledButton/ConcurrencyEnabledButton/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
