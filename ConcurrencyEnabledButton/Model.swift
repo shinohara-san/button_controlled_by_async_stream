@@ -8,11 +8,11 @@
 import Foundation
 
 class Model {
-    private var handler: ((String, Bool) -> Void)?
-    var stream: AsyncThrowingStream<(String, Bool), Error> {
+    private var handler: ((Bool) -> Void)?
+    var stream: AsyncThrowingStream<Bool, Error> {
         .init { continuation in
-            self.handler = { (val, boo) in // 4
-                continuation.yield((val, boo))
+            self.handler = { value in // 4
+                continuation.yield(value)
             }
 
             continuation.onTermination = { termination in
@@ -35,7 +35,7 @@ class Model {
     func checkButtonStatus(text: String) {
         guard let handler else { return }
         let buttonEnabled = text.count == 13
-        handler(text, buttonEnabled) // 3
+        handler(buttonEnabled) // 3
     }
 }
 

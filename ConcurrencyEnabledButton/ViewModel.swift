@@ -20,9 +20,8 @@ class ViewModel: ObservableObject {
 
     init() {
         task = Task {
-            for try await (text, isButtonEnabled) in model.stream { // 5
+            for try await (isButtonEnabled) in model.stream { // 5
                 Task.detached { @MainActor in
-                    self.text = text
                     self.isButtonEnabled = isButtonEnabled
                 }
             }
